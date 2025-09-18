@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Juan Felipe T. Bateman — Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="/">JFTB</a>
+      <a href="/about.html">About</a>
+      <a href="/cv.html">CV</a>
+      <a href="/blog/">Blog</a>
+      <a href="mailto:youremail@example.com">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Juan Felipe T. Bateman</h1>
+      <p>Earth System Science · Hydrology · Culture & Philosophy</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Welcome</h2>
+        <p>This is my personal site where I publish notes on Earth science, academic life, and culture.</p>
+      </article>
+      <article class="card">
+        <h2>Latest Posts</h2>
+        <ul>
+          <li><a href="/blog/">See the blog →</a></li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Flood model internship — Québec</li>
+          <li>Páramo plant physiology thesis</li>
+          <li>Marine mammal outreach “Guardianes del Mar”</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Juan Felipe T. Bateman</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
