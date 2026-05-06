@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Medio Ambiente"
+    url: /medioambiente/
+  - title: "Política y Sociedad"
+    url: /politicaysociedad/
+  - title: "Galería"
+    url: /galeria/
+  - title: "Arte"
+    url: /arte/
+  - title: "Acerca de mí"
+    url: /sobremi/
